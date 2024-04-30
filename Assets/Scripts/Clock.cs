@@ -1,3 +1,6 @@
 using UnityEngine;
 
-public class Clock : UnityEngine.MonoBehaviour { }
+public class Clock : MonoBehaviour {
+    [SerializeField]
+    Transform hoursPivot, minutesPivot, secondsPivot;
+}
